@@ -1,4 +1,4 @@
-= ruby-xen-web-frontedn (born jun 2009)
+= ruby-xen-web-frontend (born jun 2009)
 
 http://github.com/renemadsen/ruby-xen-web-frontend/
 
@@ -7,9 +7,17 @@ http://github.com/renemadsen/ruby-xen-web-frontend/
 The intention is to create a full blown web frontend, which should 
 enable you to create user accounts and manage your DomU's.
 
+== FEATURES/PROBLEMS:
+
+   Be able to manage users.
+   Be able to see info about the current selected Xen node.
+   Be able to create/start/stop DomUs
+   Be able to monitor the DomUs
+   Be able to have a vnc terminal of the DomUs
+
 == REQUIREMENTS:
 
-ruby-xen is required to make this future gem work
+ruby-xen is required to make this project work with xen administration.
 
 == LICENSE:
 
