@@ -12,18 +12,21 @@ enable you to create user accounts and manage your DomU's.
    Be able to manage users.
    Be able to see info about the current selected Xen node.
    Be able to create/start/stop DomUs
-   Be able to monitor the DomUs
-   Be able to have a vnc terminal of the DomUs
+   Be able to add Xen nodes and connect to them through some sort of RESTful api.
+   Be able to monitor the Xen nodes.
+   Be able to monitor the DomUs.
+   Be able to have a vnc terminal of the DomUs.
 
 == REQUIREMENTS:
 
 ruby-xen is required to make this project work with xen administration.
+For now a Debian Lenny installation with a working installation of Xen and Xen-tools.
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008-2009 Mike Bailey
+Copyright (c) 2009 Schultz Consult - Rene Madsen
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
