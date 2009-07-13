@@ -1,5 +1,5 @@
 Feature: Manage users
-  In order to mange users
+  In order to manage users
   As an administrator
   I want to create and manage users
 
